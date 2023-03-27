@@ -9,11 +9,17 @@
   <body>
     <h1 id="title">Collaboration Survey Form</h1>
     <p id="description">Survey Form created by Al Amin Khan and Abdul Rahman</p>
-    <form id="survey-form">
-      <input type="text" id="name" /><br>
-      <label id="email">Email</label><br>
-      <input type="email" id="email"/>
-    </form>
+    <div>
+      <form id="survey-form">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" /><br />
+        <label for="email">Email</label><br />
+        <input type="email" id="email" /><br />
+        <label for="number">Age (optional - did not accept non-numbers)</label
+        ><br />
+        <input type="number" id="number" min="10" max="99" /><br />
+      </form>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
